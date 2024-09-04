@@ -1,0 +1,19 @@
+{
+  "name": "chainway-rfid",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "ready2tag",
+  "license": "ISC",
+  "description": "A Node.js library for seamless integration with Chainway UHF RFID readers. Supports UR4, R3, and R6 devices for easy communication, scanning, and data retrieval. Ideal for building custom RFID applications",
+  "dependencies": {
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "typescript": "^5.5.4"
+  }
+}
